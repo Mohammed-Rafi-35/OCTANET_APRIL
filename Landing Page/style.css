@@ -1,0 +1,313 @@
+*
+{
+    margin: 0; padding: 0;
+}
+
+body
+{
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+    height: 100vh;
+}
+
+.body
+{
+    padding: 1vh;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30vh 40vh 40vh;
+}
+
+.body .banner
+{
+    grid-column: span 4;
+    background-color: rgba(128, 128, 128, 0.4);
+    width: 100%; height: 100%;
+    border-radius: 2.5vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.body .banner .left
+{
+    display: flex;
+    margin: 1vw; padding: 1vw;
+    align-items: center; 
+    justify-content: center;
+    font-size: xxx-large; font-weight: bold;
+}
+
+.body .banner .right
+{
+    display: flex;
+    margin: 1vw; padding: 1vw;
+    align-items: center;
+    justify-content: center;
+    font-size: xxx-large;
+}
+
+.body .mac-photo
+{
+    background-color: rgba(128, 128, 128, 0.4);
+    border-radius: 2vh;
+
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
+.body .mac-photo .photo
+{
+    background-image: url('https://apple.com/v/macbook-pro/ak/images/overview/contrast/product_tile_mba_13_15__cw1q3qd2yyeu_large.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5vh;
+}
+
+.body .mac-photo .text
+{
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.body .mac-photo .text span
+{
+    font-size: medium;
+    font-weight: normal;
+}
+
+.body .mac-os
+{
+    background-image: url('https://4kwallpapers.com/images/walls/thumbs_2t/8133.jpg');
+    background-size: cover;
+    border-radius: 2vh;
+
+    grid-column: span 2;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 15vh;
+    text-align: center;
+
+    color: white;
+}
+.body .mac-os .top
+{
+    font-size: xx-large;
+    font-weight: 500;
+}
+.body .mac-os .bottom
+{
+    font-size: large;
+}
+
+.body .feature
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.body .feature .top
+{
+    background-color: rgba(128, 128, 128, 0.4);
+    border-radius: 2vh;
+    font-size: x-large;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.body .feature .top .text
+{
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    font-weight: 500;
+    background-clip: text;
+    color: transparent;
+}
+
+.body .feature .bottom
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px
+}
+.body .feature .bottom .left
+{
+    background-color: rgba(128, 128, 128, 0.4);
+    border-radius: 2vh;
+    text-align: center;
+    padding: 3vh;
+}
+.body .feature .bottom .left span
+{
+    font-size: xx-large;
+    font-weight: 500;
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    background-clip: text;
+    color: transparent;
+}
+.body .feature .bottom .right
+{
+    background-color: rgba(128, 128, 128, 0.4);
+    border-radius: 2vh;
+    text-align: center;
+    padding: 3vh;
+}
+.body .feature .bottom .right span
+{
+    font-size: xx-large;
+    font-weight: 500;
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    background-clip: text;
+    color: transparent;
+}
+
+.body .wifi
+{
+    background-color: rgba(128, 128, 128, 0.4);
+    border-radius: 2vh;
+    padding: 5vw;
+
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    text-align: center;
+}
+.body .wifi .top
+{
+    font-size: 13vh;
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    background-clip: text;
+    color: transparent
+}
+.body .wifi .bottom
+{
+    font-size: x-large;
+    font-weight: 500;
+}
+/* 
+.body .batteries
+{
+    border-radius: 2vh;
+
+    background-color: rgba(128, 128, 128, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body .batteries .content 
+{
+    padding: 4vh;
+    width: 100%; height: 100%;
+    display: grid;
+    grid-template-rows: 14vh 12vh 8vh;
+    
+    background-image: url('https://img.icons8.com/?size=256&id=8rl7hetZ9JoC&format=png');
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.body .batteries .content .top
+{
+    font-size: x-large;
+    font-weight: 500;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body .batteries .content .center
+{
+    font-size: x-large;
+    font-weight: 500;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.body .batteries .content .bottom
+{
+    font-size: x-large;
+    font-weight: 500;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.body .display
+{
+    background-color: rgba(128, 128, 128, 0.4);
+    border-radius: 2vh;
+
+    display: grid;
+    grid-template-rows: 3fr 3.5fr;
+    text-align: center;
+}
+.body .display .top
+{
+    font-size: larger;
+    font-weight: 500;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body .display .bottom 
+{
+    font-size: 15vh;
+    background-image: linear-gradient(to right, #43cea2, #185a9d);
+    background-clip: text;
+    color: transparent
+}
+
+.body .performance
+{
+    grid-column: span 2;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+.body .performance .top
+{
+    background-color: rgba(128, 128, 128, 0.4);
+    border-radius: 2vh;
+
+    font-size: x-large;
+    padding-top: 3vh;
+    text-align: center;
+}
+.body .performance .top span
+{
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    font-size: xxx-large;
+    color: transparent;
+    background-clip: text;
+}
+
+.body .performance .bottom
+{
+    background-color: rgba(128, 128, 128, 0.4);
+    border-radius: 2vh;
+
+    font-size: x-large;
+    padding-top: 3vh;
+    text-align: center;
+}
+.body .performance .bottom span
+{
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    font-size: xxx-large;
+    color: transparent;
+    background-clip: text;
+}
+
+.roboto
+{
+    font-family: "Roboto", sans-serif;
+}
